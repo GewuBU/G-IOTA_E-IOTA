@@ -45,7 +45,7 @@ export const weightedMCMC = ({nodes, links, alpha}) => {
       weightedRandomWalk({links, start, alpha}),
       weightedRandomWalk({links, start, alpha}),
       //for G-IOTA
-      {tip: choose(candidateOnly), path: []}
+      //{tip: choose(candidateOnly), path: []}
     ];
   }
   else{
