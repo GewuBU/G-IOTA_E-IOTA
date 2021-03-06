@@ -17,7 +17,7 @@ npm run dev-server
 
 and go to `localhost:9000` in your browser.
 
-## G-IOTA & E-IOTA
+## G-IOTA & E-IOTA (YOU NEED TO REDO `npm run dev-server`, ONCE YOU CHANGE THE CODE!)
 To run G-IOTA:
 1) `Uncomment` line 48 in `./src/shared/tip-selection.js`.
 2) Make sure lines from 117 to 129 are `commented` and line 132 is `uncommented` in `./src/shared/algorithms.js`.
