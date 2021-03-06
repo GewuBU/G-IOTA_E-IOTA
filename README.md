@@ -19,16 +19,15 @@ and go to `localhost:9000` in your browser.
 
 ## G-IOTA & E-IOTA
 To run G-IOTA:
-1) Uncomment line 48 in "./src/shared/tip-selection.js".
-2) Make sure lines from 117 to 129 are commented in "./src/shared/algorithms.js".
+1) `Uncomment` line 48 in `./src/shared/tip-selection.js`.
+2) Make sure lines from 117 to 129 are `commented` and line 132 is `uncommented` in `./src/shared/algorithms.js`.
 
-To run E-IOTA:
-1) Make sure line 48 is commented in "./src/shared/tip-selection.js".
-2) Uncomment lines from 117 to 129 are commented in "./src/shared/algorithms.js".
-3) You can change de values of "p1" and "p2", by defaut, p1 = 10(%) and p2 = 65(%).
-note: "alpha" is not available any more during the simulation. 
+To run E-IOTA ("alpha" is not available any more during the simulation):
+1) Make sure line 48 is `commented` in `./src/shared/tip-selection.js`.
+2) `Uncomment` lines from 117 to 129 and `Comment` line 132 in `./src/shared/algorithms.js`.
+3) You can change de values of `p1` and `p2`, by defaut, `p1 = 10(%)` and `p2 = 65(%)`.
 
 To run orignal tangle test:
-1) Make sure line 48 is commented in "./src/shared/tip-selection.js".
-2) Make sure lines from 117 to 129 are commented in "./src/shared/algorithms.js".
+1) Make sure line 48 is `commented` in `./src/shared/tip-selection.js`.
+2) Make sure lines from 117 to 129 are `commented` and line 132 is `uncommented` in `./src/shared/algorithms.js`.
 
